@@ -91,4 +91,19 @@ SyntaxError: invalid syntax
 >>> a=[1,2,4,8,-1,2.2,'b',2,2]
 >>> a.count(2)
 3
->>> sub1=int(input("Enter marks of the first subject: "))
+>>> a=[1,2,3]
+>>> a[0;2]
+SyntaxError: invalid syntax
+>>> a[0:2]
+[1, 2]
+>>> a=(1,2,3,"a")
+>>> a.append(5)
+Traceback (most recent call last):
+  File "<pyshell#53>", line 1, in <module>
+    a.append(5)
+AttributeError: 'tuple' object has no attribute 'append'
+>>> a
+(1, 2, 3, 'a')
+>>> a*2
+(1, 2, 3, 'a', 1, 2, 3, 'a')
+>>> 
